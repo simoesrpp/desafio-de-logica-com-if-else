@@ -8,25 +8,25 @@ function verificaIdade(idade) {
    
 if(idade<0.1){
 
-    console.log ('Idade inválida');
-    return;
+        return'Idade inválida';
 }
 
 if (idade<18){
 
-    console.log ('Você é menor de idade');
-    return;
+        return 'Você é menor de idade' ;
 
 }
 
 if (idade>17){
 
-    console.log('Você é maior de idade')
+   return('Você é maior de idade')
     
 } 
 
 }
 
 verificaIdade (idade)
+
+
 
 
