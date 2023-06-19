@@ -8,24 +8,34 @@ function verificaIdade(idade) {
    
 if(idade<0.1){
 
-        return'Idade inválida';
+    return'Idade inválida';
 }
 
 if (idade<18){
 
-        return 'Você é menor de idade' ;
+    return 'Você é menor de idade' ;
+}
+
+if (idade<61){
+
+    return 'Você é maior de idade' ;
+}
+
+
+return('Você é idoso!')
+  
+
 
 }
 
-if (idade>17){
+const output = verificaIdade(idade);
 
-   return('Você é maior de idade')
-    
-} 
+console.log(output)
 
-}
 
-verificaIdade (idade)
+
+
+
 
 
 
