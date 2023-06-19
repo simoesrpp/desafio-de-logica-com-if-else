@@ -17,8 +17,8 @@ if (operacao === '+'){
 
 if (operacao === '-'){
 
-    const subtracao = num1 - num2;
+    const resultado = num1 - num2;
 
-    console.log(`o resultado da subtracao e ${resultado}`)
+    console.log(`o resultado da subtracao e: ${resultado}`)
     
 }
