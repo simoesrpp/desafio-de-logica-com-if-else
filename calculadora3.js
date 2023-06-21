@@ -67,9 +67,12 @@ function principal(){
 
     const saidaDetexto = impriResultado (num1,num2,resultado,operacao);
 
+// imprime o resultado
 
     console.log (saidaDetexto)
 }
-    principal()
+    
+// roda o programa
+principal()
 
 
