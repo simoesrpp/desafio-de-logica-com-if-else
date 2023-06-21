@@ -6,6 +6,8 @@ const num1 = Number(prompt('Informe o primerio número: '));
 
 const num2 = Number (prompt('Informe o segundo número: '));
 
+
+
 if (operacao === '+'){
 
     const resultado = num1 + num2;
@@ -22,3 +24,4 @@ if (operacao === '-'){
     console.log(`o resultado da subtracao e: ${resultado}`)
     
 }
+
