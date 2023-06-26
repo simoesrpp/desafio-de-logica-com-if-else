@@ -50,7 +50,7 @@ function calcula (num1,num2,operacao){
     
 function principal(){
 
-    const prompt = require('prompt-sync')();
+    const prompt = require('prompt-sync')({sigint:true});
 
     const operacao = prompt('Informe a operação desejada (+,-,*,/): ');
     

@@ -1,7 +1,3 @@
-const prompt = require('prompt-sync')();
-
-const idade = prompt('Informe sua idade:');
-
 
 function verificaIdade(idade) {
 
@@ -28,10 +24,21 @@ return('Você é idoso!')
 
 }
 
-const output = verificaIdade(idade);
+function principal(){
 
-console.log(output)
+    const prompt = require('prompt-sync')();
 
+    const idade = prompt('Informe sua idade:');
+
+    const output = verificaIdade(idade);
+
+    console.log(output)
+}
+
+module.exports = {
+
+    principal
+}
 
 
 
