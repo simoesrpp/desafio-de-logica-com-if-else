@@ -67,4 +67,9 @@ function principal(){
     console.log (saidaDetexto)
 }
     
-principal();
+
+module.exports = {
+
+    principal
+}
+
