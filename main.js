@@ -41,6 +41,10 @@ switch(opcao){
         console.log('Opção inválida!');
                 
     }
+
+    const continuar = prompt('\n Deseja continuar s/n?')
+    if continuar == ('n');
+    condicao = false
     
 }while (condicao);
 
